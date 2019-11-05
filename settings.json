@@ -1,4 +1,7 @@
 {
+    "workbench.startupEditor": "newUntitledFile",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "workbench.sideBar.location": "right",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "files.exclude": {
@@ -10,16 +13,20 @@
         "**/node_modules": true
     },
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Cobalt2",
     "editor.minimap.side": "left",
     "window.menuBarVisibility": "toggle",
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "html"
     },
     "git.autofetch": true,
-    "explorer.openEditors.visible": 0,
     "[javascript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "workbench.colorTheme": "Horizon",
+    "glassit.alpha": 248,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
